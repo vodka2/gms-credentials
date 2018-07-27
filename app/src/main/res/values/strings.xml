@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GMS Credentials</string>
+    <string name="gms_id">GMS ID</string>
+    <string name="gms_token">GMS Token</string>
+    <string name="get_credentials">Get credentials</string>
+    <string name="ok">OK</string>
+    <string name="wait">Wait…</string>
+</resources>

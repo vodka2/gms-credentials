@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/get_creds" android:text="@string/get_credentials"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gms_id"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textNoSuggestions" android:id="@+id/gms_id"
+        tools:ignore="LabelFor" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gms_token"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textNoSuggestions" android:id="@+id/gms_token"
+        tools:ignore="LabelFor" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/status_text"/>
+
+</LinearLayout>
