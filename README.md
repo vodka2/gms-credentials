@@ -1,3 +1,3 @@
-# Приложение для получения данных GMS
+# Application that shows GMS credentials
 
-Для работы нужен root на устройстве.
+You need a rooted device in order for this to work.
